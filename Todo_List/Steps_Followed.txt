@@ -1,0 +1,33 @@
+Steps Followed  To Create Todo List Using React
+
+1) -------> Props 
+ To Access The Properties Of Elements
+
+
+2) -------> To Store Data In map
+Whenever We Use map Function we have to give unique key to the component which We Have To render
+
+
+3) -------> Submit Form Without Reload
+form default behaviour ( i.e ---->  page reload )   will not work 
+
+
+4) -------> Access Real-Time Data  Using useState
+Whenever the  input Value is Changed ------->  Real Time Data  Is Shown  On  the Console (  Written Inside Component And  Before  return )
+
+
+5) -------> To Submit Task
+ setTasks ---->  to change in Array  
+ ( ...tasks ) ----->   Spread Operator  -----> It Spreads Element and then Add Elements ( avoids to store in form of array )
+ { title, description }  ------------> Add  Object
+ 
+
+ 6) ------->To Delete Task
+
+
+ 7) -------> Manage the ( add & delete ) of Data Using UseEffect
+ Automatically Manages The Changes ( When We Add OR Delete ) the Data
+ (Written Inside Component And  Before  return)
+
+
+ 8) -------> After Add Clear the ( title , desc )

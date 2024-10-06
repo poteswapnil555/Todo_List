@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #60463b;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  background-color: #856a5d;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.521);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(144, 58, 1, 0.61);
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: rgb(144, 58, 1);
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.788);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.task > div {
+  width: 100%;
+}
+
+.task > span {
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.task > button {
+  border-radius: 100%;
+}
+
+.task > button:hover {
+  background-color: rgba(255, 0, 0, 0.728);
+}
